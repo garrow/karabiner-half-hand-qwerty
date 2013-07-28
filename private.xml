@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+    <name>Half Handed Qwerty</name>
+	    <item>
+	      <name>Half Hand Qwerty</name>
+	      <appendix>Space as modifier</appendix>
+	      <identifier>remap.private.spaceAsMod5</identifier>
+	      <autogen>__KeyOverlaidModifier__ KeyCode::SPACE, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::SPACE</autogen>
+
+
+
+	<!-- Remap FN+ 12,qw,as,zx to the mirrored punctuation keys. -->
+	      <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::FN, KeyCode::MINUS</autogen>
+	      <autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::FN, KeyCode::EQUAL</autogen>
+	      <autogen>__KeyToKey__ KeyCode::Q,     ModifierFlag::FN, KeyCode::BRACKET_RIGHT</autogen>
+	      <autogen>__KeyToKey__ KeyCode::W,     ModifierFlag::FN, KeyCode::BRACKET_LEFT</autogen>
+	      <autogen>__KeyToKey__ KeyCode::A,     ModifierFlag::FN, KeyCode::QUOTE</autogen>
+	      <autogen>__KeyToKey__ KeyCode::S,     ModifierFlag::FN, KeyCode::SEMICOLON</autogen>
+	      <autogen>__KeyToKey__ KeyCode::Z,     ModifierFlag::FN, KeyCode::SLASH</autogen>
+	      <autogen>__KeyToKey__ KeyCode::X,     ModifierFlag::FN, KeyCode::DOT</autogen>
+	      <autogen>__KeyToKey__ KeyCode::C,     ModifierFlag::FN, KeyCode::COMMA</autogen>
+	      
+              <autogen>__KeyToKey__ KeyCode::D,     ModifierFlag::FN, KeyCode::CURSOR_UP</autogen>
+              <autogen>__KeyToKey__ KeyCode::F,     ModifierFlag::FN, KeyCode::CURSOR_DOWN</autogen>
+	      
+
+
+
+	      <autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::EXTRA1, KeyCode::DELETE</autogen>
+	      <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::EXTRA1, KeyCode::BACKSLASH</autogen>
+
+		  <!-- Special Keys -->
+	      <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::EXTRA1, KeyCode::KEY_0</autogen>
+	      <autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::EXTRA1, KeyCode::KEY_9</autogen>
+	      <autogen>__KeyToKey__ KeyCode::KEY_3, ModifierFlag::EXTRA1, KeyCode::KEY_8</autogen>
+	      <autogen>__KeyToKey__ KeyCode::KEY_4, ModifierFlag::EXTRA1, KeyCode::KEY_7</autogen>
+	      <autogen>__KeyToKey__ KeyCode::KEY_5, ModifierFlag::EXTRA1, KeyCode::KEY_6</autogen>
+
+	      <autogen>__KeyToKey__ KeyCode::KEY_6, ModifierFlag::EXTRA1, KeyCode::KEY_5</autogen>
+	      <autogen>__KeyToKey__ KeyCode::KEY_7, ModifierFlag::EXTRA1, KeyCode::KEY_4</autogen>
+	      <autogen>__KeyToKey__ KeyCode::KEY_8, ModifierFlag::EXTRA1, KeyCode::KEY_3</autogen>
+	      <autogen>__KeyToKey__ KeyCode::KEY_9, ModifierFlag::EXTRA1, KeyCode::KEY_2</autogen>
+	      <autogen>__KeyToKey__ KeyCode::KEY_0, ModifierFlag::EXTRA1, KeyCode::KEY_1</autogen>
+
+              <!-- Top Row -->
+	      <autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::EXTRA1, KeyCode::P</autogen>
+	      <autogen>__KeyToKey__ KeyCode::W, ModifierFlag::EXTRA1, KeyCode::O</autogen>
+	      <autogen>__KeyToKey__ KeyCode::E, ModifierFlag::EXTRA1, KeyCode::I</autogen>
+	      <autogen>__KeyToKey__ KeyCode::R, ModifierFlag::EXTRA1, KeyCode::U</autogen>
+	      <autogen>__KeyToKey__ KeyCode::T, ModifierFlag::EXTRA1, KeyCode::Y</autogen>
+	      
+	      <autogen>__KeyToKey__ KeyCode::Y, ModifierFlag::EXTRA1, KeyCode::T</autogen>
+	      <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::EXTRA1, KeyCode::R</autogen>
+	      <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::EXTRA1, KeyCode::E</autogen>
+	      <autogen>__KeyToKey__ KeyCode::O, ModifierFlag::EXTRA1, KeyCode::W</autogen>
+	      <autogen>__KeyToKey__ KeyCode::P, ModifierFlag::EXTRA1, KeyCode::Q</autogen>
+	      
+              <!-- Middle Row -->
+	      <autogen>__KeyToKey__ KeyCode::A, ModifierFlag::EXTRA1, KeyCode::SEMICOLON</autogen>
+	      <autogen>__KeyToKey__ KeyCode::S, ModifierFlag::EXTRA1, KeyCode::L</autogen>
+	      <autogen>__KeyToKey__ KeyCode::D, ModifierFlag::EXTRA1, KeyCode::K</autogen>
+	      <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::EXTRA1, KeyCode::J</autogen>
+	      <autogen>__KeyToKey__ KeyCode::G, ModifierFlag::EXTRA1, KeyCode::H</autogen>
+
+	      <autogen>__KeyToKey__ KeyCode::H,         ModifierFlag::EXTRA1, KeyCode::G</autogen>
+	      <autogen>__KeyToKey__ KeyCode::J,         ModifierFlag::EXTRA1, KeyCode::F</autogen>
+	      <autogen>__KeyToKey__ KeyCode::K,         ModifierFlag::EXTRA1, KeyCode::D</autogen>
+	      <autogen>__KeyToKey__ KeyCode::L,         ModifierFlag::EXTRA1, KeyCode::S</autogen>
+	      <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::EXTRA1, KeyCode::A</autogen>
+
+              <!-- Bottom Row -->
+	      <autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::EXTRA1, KeyCode::SLASH</autogen>
+	      <autogen>__KeyToKey__ KeyCode::X, ModifierFlag::EXTRA1, KeyCode::DOT</autogen>
+	      <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::EXTRA1, KeyCode::COMMA</autogen>
+	      <autogen>__KeyToKey__ KeyCode::V, ModifierFlag::EXTRA1, KeyCode::M</autogen>
+	      <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::EXTRA1, KeyCode::N</autogen>
+
+	      <autogen>__KeyToKey__ KeyCode::N,     ModifierFlag::EXTRA1, KeyCode::B</autogen>
+	      <autogen>__KeyToKey__ KeyCode::M,     ModifierFlag::EXTRA1, KeyCode::V</autogen>
+	      <autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::EXTRA1, KeyCode::C</autogen>
+	      <autogen>__KeyToKey__ KeyCode::DOT,   ModifierFlag::EXTRA1, KeyCode::X</autogen>
+	      <autogen>__KeyToKey__ KeyCode::SLASH, ModifierFlag::EXTRA1, KeyCode::Z</autogen>
+	      
+
+
+<!--  -->
+	      
+
+
+
+<!-- BACKQUOTE     0x32
+BACKSLASH     0x2a
+BRACKET_LEFT  0x21
+BRACKET_RIGHT 0x1e
+COMMA         0x2b
+DOT           0x2f
+EQUAL         0x18
+MINUS         0x1b
+QUOTE         0x27
+SEMICOLON     0x29
+SLASH         0x2c
+ -->
+	    </item>
+</item>
+</root>
