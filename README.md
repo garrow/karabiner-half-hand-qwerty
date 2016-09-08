@@ -1,2 +1,2 @@
-keyremap4macbok_private
+keyremap4macbook_private
 =======================
