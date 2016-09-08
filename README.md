@@ -1,4 +1,4 @@
-keyremap4macbook_private
+karabiner-half-hand-qwerty
 =======================
 
 
